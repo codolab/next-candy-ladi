@@ -1867,57 +1867,57 @@ camelcase@^6.0.0:
   resolved "https://registry.npmjs.org/camelcase/-/camelcase-6.2.0.tgz#924af881c9d525ac9d87f40d964e5cea982a1809"
   integrity sha512-c7wVvbw3f37nuobQNtgsgG9POC9qMbNuMQmTCqZv23b6MIz0fcYpBiOlv9gEN/hdLdnZTDQhg6e9Dq5M1vKvfg==
 
-candy-atomic@^0.2.3:
-  version "0.2.3"
-  resolved "https://registry.npmjs.org/candy-atomic/-/candy-atomic-0.2.3.tgz#b3b543fc51a8ee34891e096fa5759bef6ca5c5a6"
-  integrity sha512-uUQ7RsEfkYm+Ltdu3B1GQSDq/KdCt6E52LNf7BtCxr1vnbarCrbHbSAgVssbW4TpCmHGppkRIn0g8pYFcJ/J2A==
+candy-atomic@^0.2.8:
+  version "0.2.8"
+  resolved "https://registry.npmjs.org/candy-atomic/-/candy-atomic-0.2.8.tgz#560426ede36edd4ca57c9719fdef12c3cb859aa3"
+  integrity sha512-R+6udhLVeDfj/dC3YZjv5G7WR6Asm71ang5GF+69tf75kB0+mg0hvJ3liXNUH7eaPfXXiCaoSKjQ8Mhjd3jMWg==
   dependencies:
-    candy-sheet "^0.2.3"
-    candy-utils "^0.2.3"
+    candy-sheet "^0.2.8"
+    candy-utils "^0.2.8"
     tiny-css-prefixer "^1.1.4"
 
-candy-classic@^0.2.3:
-  version "0.2.3"
-  resolved "https://registry.npmjs.org/candy-classic/-/candy-classic-0.2.3.tgz#d8cf731fa4a6296f27fd28ad5444ebb388b4790d"
-  integrity sha512-qH+5oNhj1tUJ6bx07LHmv4Au3iBzrJBOVG/sZlx4Cu/Fxucb1lfXRCdng4wA9QDKXCLLXWI5IRxEDX0nJqs/uw==
+candy-classic@^0.2.8:
+  version "0.2.8"
+  resolved "https://registry.npmjs.org/candy-classic/-/candy-classic-0.2.8.tgz#2332aa5af8ce5c85045c57363db57065f05ab633"
+  integrity sha512-EHJgVALwT6+iFveQg9sd/wHPfwSYF3QsIjFUoaSRMRDAMcSeDeaKddPci3wjMSCqEy2tUKa3aRvOf2Kw99VAyg==
   dependencies:
-    candy-sheet "^0.2.3"
-    candy-utils "^0.2.3"
+    candy-sheet "^0.2.8"
+    candy-utils "^0.2.8"
 
-candy-moon-engine@^0.2.3:
-  version "0.2.3"
-  resolved "https://registry.npmjs.org/candy-moon-engine/-/candy-moon-engine-0.2.3.tgz#e61ceaaa49e60162cc06eefc1da131abfe41475c"
-  integrity sha512-U8GB4EkjCLXLHwn6rQtLMfNvKXj8BsmvEtUY8w2GJHllMwOaGFiR4QWCSgT8iG5Pvpi0zgf2UoCvOHNY/LMhJQ==
+candy-moon-engine@^0.2.8:
+  version "0.2.8"
+  resolved "https://registry.npmjs.org/candy-moon-engine/-/candy-moon-engine-0.2.8.tgz#ac4b4d03c13df781ff071d6575971119ebe610d5"
+  integrity sha512-0Fd9Jcb+3UCB+aei7+0y1KjGPk+LjI4cXjifRu61zOAsaMv4f/5TDlvvCh4dBrhJmNEu+UNXzd0idDxATu4MOQ==
   dependencies:
-    candy-system "^0.2.3"
+    candy-system "^0.2.8"
     clsx "^1.1.1"
     color-rgba "^2.2.3"
     fast-memoize "^2.5.2"
 
-candy-moon@^0.2.3:
-  version "0.2.3"
-  resolved "https://registry.npmjs.org/candy-moon/-/candy-moon-0.2.3.tgz#ce31bb293cffee3b89c80d11773efb337e5e724d"
-  integrity sha512-ByRLFjc8DTj5NabEWROcUTGanqVjqE5OHdGB2ZA8KSqxzqVMPpLLo6CFUSjNsdzkXLF4WBDY9B2QjgZY03d5Yw==
+candy-moon@^0.2.8:
+  version "0.2.8"
+  resolved "https://registry.npmjs.org/candy-moon/-/candy-moon-0.2.8.tgz#8593f36f3fbbd6dd25852b534335eefd2a48acbf"
+  integrity sha512-B4LuVn4vCTlG8/fYlvLHGICR9mjR09SL5oRkoNSsob+bCSIk8nro36OILZRK2rW4Ipg4gMCEMwy42NhAVgmxKQ==
   dependencies:
-    candy-atomic "^0.2.3"
-    candy-classic "^0.2.3"
-    candy-moon-engine "^0.2.3"
-    candy-system "^0.2.3"
+    candy-atomic "^0.2.8"
+    candy-classic "^0.2.8"
+    candy-moon-engine "^0.2.8"
+    candy-system "^0.2.8"
 
-candy-sheet@^0.2.3:
-  version "0.2.3"
-  resolved "https://registry.npmjs.org/candy-sheet/-/candy-sheet-0.2.3.tgz#c4c48de29773a8eed0d2645a8b0be3b9e4bd0702"
-  integrity sha512-aAxzzEY4mtvvXW5SORoLt978KZw3D0D6BMZV0ibFy2MYsZ41V8hffAjUBKN/Y/AuG/I3464a+YrnKIA42a8USQ==
+candy-sheet@^0.2.8:
+  version "0.2.8"
+  resolved "https://registry.npmjs.org/candy-sheet/-/candy-sheet-0.2.8.tgz#a329f053aa23e0b235cbd7249dfc36109205dda6"
+  integrity sha512-FJGodNB0VJ2QODzsBo2YdaDvXLd4cpaBcZEa6rhVKtv9RGISLRRwphER0LadWM/6jOjABL4ZAoH5KMYkhd76ng==
 
-candy-system@^0.2.3:
-  version "0.2.3"
-  resolved "https://registry.npmjs.org/candy-system/-/candy-system-0.2.3.tgz#e79f44b6f73ababb622aaa4aacade799a2a077eb"
-  integrity sha512-a/SkcX3tRkhx7qa8oa0rGTh64fEM8ZDa3Egvesv2fFI4aCDAfDepEYjy8aV5XLKv9h7qi3EiUeuTP/1SoHhj1g==
+candy-system@^0.2.8:
+  version "0.2.8"
+  resolved "https://registry.npmjs.org/candy-system/-/candy-system-0.2.8.tgz#8f0a07a051a02e2f283d7affaf7ff336952bb2bb"
+  integrity sha512-0HuACd0kKJc5uGR+70h12B206C495mzSWyDIEyz/YEMMxzdzOY3c+iERjxRns+Yg8gxJCeTE5tWCfIMkpZxXWg==
 
-candy-utils@^0.2.3:
-  version "0.2.3"
-  resolved "https://registry.npmjs.org/candy-utils/-/candy-utils-0.2.3.tgz#765aa37f9ff3b6081c6cfa61c3775e2abaff48c4"
-  integrity sha512-O2bU539AgNhP2iWk1b/65uCtVVsfTsVPlW2Pmgc81fVzLIpW380odgCmklTIw/q+I1lrDxyBW2wZNBIEj6RdTA==
+candy-utils@^0.2.8:
+  version "0.2.8"
+  resolved "https://registry.npmjs.org/candy-utils/-/candy-utils-0.2.8.tgz#1a91634e072473343a036616b56255f789dbbbd2"
+  integrity sha512-PpqtFPvm/hQj4E3edhoMZ6LoSURAFBbApAhSIf75tSwXwHuanWdtO5ywiHMei0HY3ZISGSbkkK2/gdYffAes/w==
 
 caniuse-lite@^1.0.30001093, caniuse-lite@^1.0.30001109, caniuse-lite@^1.0.30001113, caniuse-lite@^1.0.30001157:
   version "1.0.30001157"

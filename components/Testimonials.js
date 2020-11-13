@@ -1,17 +1,17 @@
-import { cx } from "candy-moon";
+/** @jsxImportSource candy-moon */
 
 export default function Testimonials() {
   return (
-    <section className={cx`bg-gray-900`}>
-      <div className={cx`container px-5 py-24 mx-auto`}>
-        <div className={cx`w-full mx-auto text-center`}>
+    <section cls="bg-gray-900">
+      <div cls="container px-5 py-24 mx-auto">
+        <div cls="w-full mx-auto text-center">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             x="0px"
             y="0px"
             viewBox="0 0 512 512"
             fill="currentColor"
-            className={cx`inline-block w-8 h-8 text-gray-400`}
+            cls="inline-block w-8 h-8 text-gray-400"
           >
             <g>
               <g>
@@ -72,32 +72,28 @@ export default function Testimonials() {
             <g></g>
           </svg>
 
-          <p className={cx`my-8 text-xl text-white leading-tall md:text-3xl`}>
+          <p cls="my-8 text-xl text-white leading-tall md:text-3xl">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Eu nisl
             nunc mi ipsum faucibus vitae.{" "}
-            <span
-              className={cx`bg-clip-text text-transparent bg-gradient-to-r from-teal-400 to-blue-500`}
-            >
+            <span cls="bg-clip-text text-transparent bg-gradient-to-r from-teal-400 to-blue-500">
               Lacus laoreet non curabitur
             </span>{" "}
-            gravida arcu ac tortor. Laoreet sit amet cursus sit amet dictum. Congue
-            quisque egestas diam in arcu. Ullamcorper sit amet risus nullam eget
-            felis eget. Eget gravida cum sociis natoque penatibus et magnis dis
-            parturient. Turpis cursus in hac habitasse
+            gravida arcu ac tortor. Laoreet sit amet cursus sit amet dictum.
+            Congue quisque egestas diam in arcu. Ullamcorper sit amet risus
+            nullam eget felis eget. Eget gravida cum sociis natoque penatibus et
+            magnis dis parturient. Turpis cursus in hac habitasse
           </p>
 
           <img
             alt="Avatar"
             src="/avatar.jpeg"
-            className={cx`object-cover object-top w-32 h-32 max-w-full mx-auto rounded-full shadow-lg`}
+            cls="object-cover object-top w-32 h-32 max-w-full mx-auto rounded-full shadow-lg"
           />
-          <h5
-            className={cx`mt-6 text-base font-semibold text-white sm:text-lg md:text-xl`}
-          >
+          <h5 cls="mt-6 text-base font-semibold text-white sm:text-lg md:text-xl">
             Ryan Tompson
           </h5>
-          <p className={cx`mt-1 mb-3 text-base font-medium text-gray-500`}>
+          <p cls="mt-1 mb-3 text-base font-medium text-gray-500">
             Web Developer
           </p>
         </div>

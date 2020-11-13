@@ -8,7 +8,7 @@
     "start": "next start"
   },
   "dependencies": {
-    "candy-moon": "^0.2.3",
+    "candy-moon": "^0.2.8",
     "next": "10.0.1",
     "react": "17.0.1",
     "react-dom": "17.0.1"

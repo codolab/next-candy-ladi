@@ -1,37 +1,33 @@
-import { cx } from "candy-moon";
+/** @jsxImportSource candy-moon */
 
 export default function HowItWork() {
   return (
-    <section className={cx`bg-gray-100`}>
-      <div className={cx`container px-5 py-16 mx-auto`}>
-        <div
-          className={cx`max-w-xl mb-10 md:mx-auto sm:text-center lg:max-w-2xl md:mb-12`}
-        >
-          <div className={cx`lg:text-center`}>
-            <span className={cx`text-gray-500 text-sm uppercase font-semibold`}>
+    <section cls="bg-gray-100">
+      <div cls="container px-5 py-16 mx-auto">
+        <div cls="max-w-xl mb-10 md:mx-auto sm:text-center lg:max-w-2xl md:mb-12">
+          <div cls="lg:text-center">
+            <span cls="text-gray-500 text-sm uppercase font-semibold">
               How It Work
             </span>
-            <h3
-              className={cx`mt-2 text-3xl font-extrabold leading-10 tracking-tight text-gray-900 sm:leading-none md:mx-auto sm:text-4xl`}
-            >
+            <h3 cls="mt-2 text-3xl font-extrabold leading-10 tracking-tight text-gray-900 sm:leading-none md:mx-auto sm:text-4xl">
               Chase ball of string eat
             </h3>
           </div>
         </div>
 
-        <div className={cx`flex flex-wrap`}>
-          <div className={cx`flex flex-col justify-center w-5/6 p-6 sm:w-1/2`}>
-            <h3
-              className={cx`text-3xl text-gray-800 font-bold leading-none mb-3`}
-            >
+        <div cls="flex flex-wrap">
+          <div cls="flex flex-col justify-center w-5/6 p-6 sm:w-1/2">
+            <h3 cls="text-3xl text-gray-800 font-bold leading-none mb-3">
               Excelent Services
             </h3>
-            <p className={cx`mt-2 mb-4 text-base leading-6 text-gray-700`}>
-              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
+            <p cls="mt-2 mb-4 text-base leading-6 text-gray-700">
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry. Lorem Ipsum has been the industry's standard dummy text
+              ever since the 1500s
             </p>
 
             <a
-              className={cx`inline-flex items-center transition-all duration-200 ease-out cursor-pointer no-underline hover:underline outline-none focus:outline-none focus:shadow-outline font-semibold text-gray-600 hover:text-gray-700`}
+              cls="inline-flex items-center transition-all duration-200 ease-out cursor-pointer no-underline hover:underline outline-none focus:outline-none focus:shadow-outline font-semibold text-gray-600 hover:text-gray-700"
               href="#"
             >
               Learn more
@@ -41,7 +37,7 @@ export default function HowItWork() {
                 strokeLinecap="round"
                 strokeLinejoin="round"
                 strokeWidth="2"
-                className={cx`w-4 h-4 ml-2`}
+                cls="w-4 h-4 ml-2"
                 viewBox="0 0 24 24"
               >
                 <path d="M5 12h14M12 5l7 7-7 7"></path>
@@ -49,8 +45,8 @@ export default function HowItWork() {
             </a>
           </div>
 
-          <div className={cx`w-full sm:w-1/2 p-6`}>
-            <svg className={cx`w-full sm:h-64 mx-auto`} id="aff40d89-77de-4835-bbf1-69878b2c71b2" xmlns="http://www.w3.org/2000/svg" width="845.19691" height="360.27083" viewBox="0 0 845.19691 360.27083">
+          <div cls="w-full sm:w-1/2 p-6">
+            <svg cls="w-full sm:h-64 mx-auto" id="aff40d89-77de-4835-bbf1-69878b2c71b2" xmlns="http://www.w3.org/2000/svg" width="845.19691" height="360.27083" viewBox="0 0 845.19691 360.27083">
               <path d="M890.5948,617.21813H474.11818a1.15373,1.15373,0,0,1-1.15367-1.15368V343.79719a1.15368,1.15368,0,0,1,2.30735,0V614.91078H890.5948a1.15368,1.15368,0,0,1,0,2.30735Z" transform="translate(-177.40155 -269.86458)" fill="#3f3d56" />
               <path d="M890.5948,562.99541H474.11818a1.15368,1.15368,0,0,1,0-2.30735H890.5948a1.15368,1.15368,0,0,1,0,2.30735Z" transform="translate(-177.40155 -269.86458)" fill="#3f3d56" />
               <path d="M891.17164,519.15577H474.695a1.15367,1.15367,0,0,1,0-2.30735H891.17164a1.15368,1.15368,0,0,1,0,2.30735Z" transform="translate(-177.40155 -269.86458)" fill="#3f3d56" />
@@ -116,13 +112,13 @@ export default function HowItWork() {
               <circle cx="250.92377" cy="204.29786" r="11" fill="#e6e6e6" />
               <circle cx="250.92377" cy="248.13751" r="11" fill="#e6e6e6" />
               <circle cx="250.92377" cy="291.97715" r="11" fill="#e6e6e6" />
-          </svg>
+            </svg>
           </div>
         </div>
 
-        <div className={cx`flex flex-wrap flex-col-reverse sm:flex-row`}>
-          <div className={cx`w-full sm:w-1/2 p-6 mt-6`}>
-            <svg className={cx`w-full sm:h-64 mx-auto`} id="b06f5967-fed7-4e93-82f7-c825c21009e5" xmlns="http://www.w3.org/2000/svg" width="637.95669" height="480" viewBox="0 0 637.95669 480">
+        <div cls="flex flex-wrap flex-col-reverse sm:flex-row">
+          <div cls="w-full sm:w-1/2 p-6 mt-6">
+            <svg cls="w-full sm:h-64 mx-auto" id="b06f5967-fed7-4e93-82f7-c825c21009e5" xmlns="http://www.w3.org/2000/svg" width="637.95669" height="480" viewBox="0 0 637.95669 480">
               <path d="M784.97835,518c-75.14014,0-134-13.6167-134-31,0-10.42188,20.856-19.7207,57.22-25.51123a1,1,0,1,1,.31445,1.9751C674.25789,468.919,652.97835,477.9375,652.97835,487c0,15.71973,60.44848,29,132,29s132-13.28027,132-29c0-9.10059-21.41553-18.14111-55.88965-23.59277a1.00008,1.00008,0,0,1,.3125-1.97559c36.59106,5.78662,57.57715,15.106,57.57715,25.56836C918.97835,504.3833,860.11848,518,784.97835,518Z" transform="translate(-281.02165 -210)" fill="#ccc" />
               <path d="M718.49983,523.83838a76.98277,76.98277,0,0,0,133.1499-.33551A1211.97868,1211.97868,0,0,1,718.49983,523.83838Z" transform="translate(-281.02165 -210)" fill="#e6e6e6" />
               <path d="M859.02034,502.12292a76.997,76.997,0,1,0-147.85742.79908A572.23317,572.23317,0,0,0,859.02034,502.12292Z" transform="translate(-281.02165 -210)" fill="#e6e6e6" />
@@ -152,21 +148,21 @@ export default function HowItWork() {
               <circle cx="519.95669" cy="234" r="9" fill="#fff" />
               <circle cx="503.95669" cy="333" r="9" fill="#fff" />
               <circle cx="474.95669" cy="265" r="15" fill="#fff" />
-          </svg>
+            </svg>
           </div>
-          <div className={cx`flex flex-col justify-center w-full sm:w-1/2 p-6 mt-6`}>
-            <div className={cx`align-middle`}>
-              <h3
-                className={cx`text-3xl text-gray-800 font-bold leading-none mb-3`}
-              >
+          <div cls="flex flex-col justify-center w-full sm:w-1/2 p-6 mt-6">
+            <div cls="align-middle">
+              <h3 cls="text-3xl text-gray-800 font-bold leading-none mb-3">
                 Grow your market
               </h3>
-              <p className={cx`mt-2 mb-4 text-base leading-6 text-gray-700`}>
-                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
+              <p cls="mt-2 mb-4 text-base leading-6 text-gray-700">
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry. Lorem Ipsum has been the industry's standard dummy
+                text ever since the 1500s
               </p>
 
               <a
-                className={cx`inline-flex items-center transition-all duration-200 ease-out cursor-pointer no-underline hover:underline outline-none focus:outline-none focus:shadow-outline font-semibold text-gray-600 hover:text-gray-700`}
+                cls="inline-flex items-center transition-all duration-200 ease-out cursor-pointer no-underline hover:underline outline-none focus:outline-none focus:shadow-outline font-semibold text-gray-600 hover:text-gray-700"
                 href="#"
               >
                 Learn more
@@ -176,7 +172,7 @@ export default function HowItWork() {
                   strokeLinecap="round"
                   strokeLinejoin="round"
                   strokeWidth="2"
-                  className={cx`w-4 h-4 ml-2`}
+                  cls="w-4 h-4 ml-2"
                   viewBox="0 0 24 24"
                 >
                   <path d="M5 12h14M12 5l7 7-7 7"></path>
