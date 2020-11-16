@@ -1,13 +1,18 @@
 /** @jsxImportSource candy-moon */
 import Image from "next/image";
+import { useTheme } from "./ThemeContext";
 
 export default function Feature() {
+  const { color } = useTheme();
+
   return (
     <section cls="bg-gray-100">
       <div cls="flex flex-col container px-5 py-16 md:py-24 mx-auto">
         <div cls="max-w-2xl mb-8 md:mx-auto sm:text-center lg:max-w-3xl md:mb-10">
           <div cls="lg:text-center">
-            <span cls="inline-flex items-center justify-center w-auto h-8 px-4 mb-2 text-sm font-medium tracking-wide text-blue-800 uppercase bg-blue-200 rounded-full outline-none">
+            <span
+              cls={`inline-flex items-center justify-center w-auto h-8 px-4 mb-2 text-sm font-medium tracking-wide text-${color}-800 uppercase bg-${color}-200 rounded-full outline-none`}
+            >
               Watch and Learn
             </span>
             <h3 cls="mt-2 text-3xl font-extrabold leading-10 tracking-tight text-gray-900 sm:leading-none md:mx-auto sm:text-4xl">
@@ -25,7 +30,7 @@ export default function Feature() {
                     cls="relative overflow-hidden h-0 rounded-sm"
                     style={{ paddingBottom: "56.25%" }}
                   >
-                    <Image 
+                    <Image
                       alt="Blog"
                       src="/blog.jpg"
                       cls="absolute inset-0 object-cover h-full w-full align-middle"
@@ -81,7 +86,7 @@ export default function Feature() {
                     cls="relative overflow-hidden h-0 rounded-sm"
                     style={{ paddingBottom: "56.25%" }}
                   >
-                    <Image 
+                    <Image
                       alt="Blog 2"
                       src="/blog-2.jpeg"
                       cls="absolute inset-0 object-cover h-full w-full align-middle"
@@ -137,7 +142,7 @@ export default function Feature() {
                     cls="relative overflow-hidden h-0 rounded-sm"
                     style={{ paddingBottom: "56.25%" }}
                   >
-                    <Image 
+                    <Image
                       alt="Blog 3"
                       src="/blog-3.jpeg"
                       cls="absolute inset-0 object-cover h-full w-full align-middle"

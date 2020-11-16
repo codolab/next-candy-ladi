@@ -1,6 +1,9 @@
 /** @jsxImportSource candy-moon */
+import { useTheme } from "./ThemeContext";
 
 export default function Pricing() {
+  const { color } = useTheme();
+
   return (
     <section cls="bg-white">
       <div cls="container px-5 py-8 md:py-16 mx-auto">
@@ -96,7 +99,7 @@ export default function Pricing() {
                   </ul>
                 </div>
                 <div>
-                  <button cls="inline-flex items-center justify-center w-full h-12 px-6 mb-4 text-base font-medium leading-tight text-gray-200 whitespace-no-wrap align-middle transition-all duration-200 bg-blue-100 bg-opacity-75 text-blue-500 rounded-md outline-none appearance-none select-none focus:outline-none focus:shadow-outline hover:bg-blue-200 hover:bg-opacity-50">
+                  <button cls={`inline-flex items-center justify-center w-full h-12 px-6 mb-4 text-base font-medium leading-tight text-gray-200 whitespace-no-wrap align-middle transition-all duration-200 bg-${color}-100 bg-opacity-75 text-${color}-500 rounded-md outline-none appearance-none select-none focus:outline-none focus:shadow-outline hover:bg-${color}-200 hover:bg-opacity-50`}>
                     Get started
                   </button>
                   <p cls="text-sm text-gray-600">
@@ -249,7 +252,7 @@ export default function Pricing() {
                   </ul>
                 </div>
                 <div>
-                  <button cls="inline-flex items-center justify-center w-full h-12 px-6 mb-4 text-base font-medium leading-tight text-white whitespace-no-wrap align-middle transition-all duration-200 bg-blue-500 rounded-md outline-none appearance-none select-none focus:outline-none focus:shadow-outline hover:bg-blue-600 active:bg-blue-700">
+                  <button cls={`inline-flex items-center justify-center w-full h-12 px-6 mb-4 text-base font-medium leading-tight text-white whitespace-no-wrap align-middle transition-all duration-200 bg-${color}-500 rounded-md outline-none appearance-none select-none focus:outline-none focus:shadow-outline hover:bg-${color}-600 active:bg-${color}-700`}>
                     Get started
                   </button>
                   <p cls="text-sm text-gray-600">

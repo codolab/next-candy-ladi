@@ -31,7 +31,7 @@ export default function HowItWork() {
             </p>
 
             <a
-              cls="inline-flex items-center transition-all duration-200 ease-out cursor-pointer no-underline hover:underline outline-none focus:outline-none focus:shadow-outline font-semibold text-gray-600 hover:text-gray-700"
+              cls="inline-flex items-center cursor-pointer no-underline hover:underline text-gray-600 hover:text-gray-700"
               href="#"
             >
               Learn more
@@ -205,7 +205,7 @@ export default function HowItWork() {
               </div>
 
               <a
-                cls="inline-flex items-center transition-all duration-200 ease-out cursor-pointer no-underline hover:underline outline-none focus:outline-none focus:shadow-outline font-semibold text-gray-600 hover:text-gray-700"
+                cls="inline-flex items-center cursor-pointer no-underline hover:underline text-gray-600 hover:text-gray-700"
                 href="#"
               >
                 Learn more
@@ -300,7 +300,7 @@ export default function HowItWork() {
             </p>
 
             <a
-              cls="inline-flex items-center transition-all duration-200 ease-out cursor-pointer no-underline hover:underline outline-none focus:outline-none focus:shadow-outline font-semibold text-gray-600 hover:text-gray-700"
+              cls="inline-flex items-center cursor-pointer no-underline hover:underline text-gray-600 hover:text-gray-700"
               href="#"
             >
               Learn more

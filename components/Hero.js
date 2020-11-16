@@ -1,7 +1,10 @@
 /** @jsxImportSource candy-moon */
 import Image from "next/image";
+import { useTheme, getGradientByColor } from "./ThemeContext";
 
 export default function Hero() {
+  const { color } = useTheme();
+  const gradient = getGradientByColor(color);
   return (
     <section cls="bg-white">
       <div cls="container mx-auto flex flex-col items-center px-5 pt-16 pb-8 md:pt-24 md:pb-16">
@@ -9,7 +12,7 @@ export default function Hero() {
           <div cls="max-w-xl mb-10 sm:text-center md:mx-auto lg:max-w-4xl">
             <h2 cls="text-4xl font-extrabold leading-10 tracking-tight text-gray-900 sm:text-5xl sm:leading-none md:mx-auto lg:text-6xl">
               The quick, brown fox jumps over{" "}
-              <span cls="bg-clip-text text-transparent bg-gradient-to-r from-teal-400 to-blue-500">
+              <span cls={`bg-clip-text text-transparent bg-gradient-to-r from-${gradient.from}-400 to-${gradient.to}-500`}>
                 a lazy dog
               </span>
             </h2>
@@ -36,7 +39,7 @@ export default function Hero() {
                 />
               </svg>
             </button>
-            <button cls="inline-flex items-center justify-center h-12 px-6 text-base font-medium leading-tight whitespace-no-wrap align-middle transition-all duration-200 bg-blue-500 text-white rounded-md outline-none appearance-none select-none cursor-pointer hover:bg-blue-600 focus:outline-none focus:shadow-outline">
+            <button cls={`inline-flex items-center justify-center h-12 px-6 text-base font-medium leading-tight whitespace-no-wrap align-middle transition-all duration-200 bg-${color}-500 text-white rounded-md outline-none appearance-none select-none cursor-pointer hover:bg-${color}-600 focus:outline-none focus:shadow-outline`}>
               <span>Go Dashboard</span>
               <svg
                 cls="w-4 h-4 flex-shrink-0 ml-2 -mr-1"

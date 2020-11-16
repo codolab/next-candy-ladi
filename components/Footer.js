@@ -1,4 +1,5 @@
 /** @jsxImportSource candy-moon */
+import ColorSelect from "./ColorSelect";
 
 export default function Footer() {
   return (
@@ -21,26 +22,26 @@ export default function Footer() {
               <div cls="flex flex-col justify-end space-y-4">
                 <a
                   to="/components"
-                  cls="text-sm font-normal text-gray-600 no-underline transition-all duration-200 ease-out outline-none cursor-pointer hover:underline focus:outline-none focus:shadow-outline hover:text-gray-800"
+                  cls="text-sm text-gray-600 no-underline cursor-pointer hover:underline hover:text-gray-800"
                 >
                   First Link
                 </a>
 
                 <a
                   href="#"
-                  cls="text-sm font-normal text-gray-600 no-underline transition-all duration-200 ease-out outline-none cursor-pointer hover:underline focus:outline-none focus:shadow-outline hover:text-gray-800"
+                  cls="text-sm text-gray-600 no-underline cursor-pointer hover:underline hover:text-gray-800"
                 >
                   Second Link
                 </a>
                 <a
                   href="#"
-                  cls="text-sm font-normal text-gray-600 no-underline transition-all duration-200 ease-out outline-none cursor-pointer hover:underline focus:outline-none focus:shadow-outline hover:text-gray-800"
+                  cls="text-sm text-gray-600 no-underline cursor-pointer hover:underline hover:text-gray-800"
                 >
                   Third Link
                 </a>
                 <a
                   href="#"
-                  cls="text-sm font-normal text-gray-600 no-underline transition-all duration-200 ease-out outline-none cursor-pointer hover:underline focus:outline-none focus:shadow-outline hover:text-gray-800"
+                  cls="text-sm text-gray-600 no-underline cursor-pointer hover:underline hover:text-gray-800"
                 >
                   Fourth Link
                 </a>
@@ -54,26 +55,26 @@ export default function Footer() {
               <div cls="flex flex-col space-y-4">
                 <a
                   to="/components"
-                  cls="text-sm font-normal text-gray-600 no-underline transition-all duration-200 ease-out outline-none cursor-pointer hover:underline focus:outline-none focus:shadow-outline hover:text-gray-800"
+                  cls="text-sm text-gray-600 no-underline cursor-pointer hover:underline hover:text-gray-800"
                 >
                   First Link
                 </a>
 
                 <a
                   href="#"
-                  cls="text-sm font-normal text-gray-600 no-underline transition-all duration-200 ease-out outline-none cursor-pointer hover:underline focus:outline-none focus:shadow-outline hover:text-gray-800"
+                  cls="text-sm text-gray-600 no-underline cursor-pointer hover:underline hover:text-gray-800"
                 >
                   Second Link
                 </a>
                 <a
                   href="#"
-                  cls="text-sm font-normal text-gray-600 no-underline transition-all duration-200 ease-out outline-none cursor-pointer hover:underline focus:outline-none focus:shadow-outline hover:text-gray-800"
+                  cls="text-sm text-gray-600 no-underline cursor-pointer hover:underline hover:text-gray-800"
                 >
                   Third Link
                 </a>
                 <a
                   href="#"
-                  cls="text-sm font-normal text-gray-600 no-underline transition-all duration-200 ease-out outline-none cursor-pointer hover:underline focus:outline-none focus:shadow-outline hover:text-gray-800"
+                  cls="text-sm text-gray-600 no-underline cursor-pointer hover:underline hover:text-gray-800"
                 >
                   Fourth Link
                 </a>
@@ -86,26 +87,26 @@ export default function Footer() {
               <div cls="flex flex-col space-y-4">
                 <a
                   to="/components"
-                  cls="text-sm font-normal text-gray-600 no-underline transition-all duration-200 ease-out outline-none cursor-pointer hover:underline focus:outline-none focus:shadow-outline hover:text-gray-800"
+                  cls="text-sm text-gray-600 no-underline cursor-pointer hover:underline hover:text-gray-800"
                 >
                   First Link
                 </a>
 
                 <a
                   href="#"
-                  cls="text-sm font-normal text-gray-600 no-underline transition-all duration-200 ease-out outline-none cursor-pointer hover:underline focus:outline-none focus:shadow-outline hover:text-gray-800"
+                  cls="text-sm text-gray-600 no-underline cursor-pointer hover:underline hover:text-gray-800"
                 >
                   Second Link
                 </a>
                 <a
                   href="#"
-                  cls="text-sm font-normal text-gray-600 no-underline transition-all duration-200 ease-out outline-none cursor-pointer hover:underline focus:outline-none focus:shadow-outline hover:text-gray-800"
+                  cls="text-sm text-gray-600 no-underline cursor-pointer hover:underline hover:text-gray-800"
                 >
                   Third Link
                 </a>
                 <a
                   href="#"
-                  cls="text-sm font-normal text-gray-600 no-underline transition-all duration-200 ease-out outline-none cursor-pointer hover:underline focus:outline-none focus:shadow-outline hover:text-gray-800"
+                  cls="text-sm text-gray-600 no-underline cursor-pointer hover:underline hover:text-gray-800"
                 >
                   Fourth Link
                 </a>
@@ -116,6 +117,7 @@ export default function Footer() {
       </div>
       <div cls="bg-white">
         <div cls="container flex flex-col justify-between px-4 py-8 mx-auto border-t border-gray-300 lg:py-10 sm:flex-row md:px-0">
+          <div cls="flex-1 space-x-0 flex flex-col sm:flex-row sm:space-x-12">
           <p cls="text-base text-gray-600">
             © Copyright 2020{" "}
             <span cls="font-medium text-gray-700">Lorem Inc</span>. All rights
@@ -175,6 +177,10 @@ export default function Footer() {
                 <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z" />
               </svg>
             </a>
+          </div>
+          </div>
+          <div cls="mt-4 sm:mt-0">
+            <ColorSelect />
           </div>
         </div>
       </div>

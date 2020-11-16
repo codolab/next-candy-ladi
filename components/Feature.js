@@ -1,12 +1,15 @@
 /** @jsxImportSource candy-moon */
+import { useTheme } from "./ThemeContext";
 
 export default function Feature() {
+  const { color } = useTheme();
+  
   return (
     <section cls="bg-white">
       <div cls="container px-5 py-16 md:py-24 mx-auto">
         <div cls="max-w-xl mb-10 sm:text-center md:mx-auto md:mb-12 lg:max-w-2xl">
           <div cls="lg:text-center">
-            <span cls="inline-flex items-center justify-center w-auto h-8 px-4 mb-2 text-sm font-medium tracking-wide text-blue-800 uppercase bg-blue-200 rounded-full outline-none">
+            <span cls={`inline-flex items-center justify-center w-auto h-8 px-4 mb-2 text-sm font-medium tracking-wide text-${color}-800 uppercase bg-${color}-200 rounded-full outline-none`}>
               OUR FEATURES
             </span>
             <h3 cls="mt-2 text-3xl font-extrabold leading-10 tracking-tight text-gray-900 sm:leading-none md:mx-auto sm:text-4xl">
@@ -51,7 +54,7 @@ export default function Feature() {
                 </p>
 
                 <a
-                  cls="inline-flex items-center font-semibold text-gray-700 no-underline cursor-pointer hover:underline hover:text-gray-800"
+                  cls="inline-flex items-center text-gray-700 no-underline cursor-pointer hover:underline hover:text-gray-700"
                   href="#"
                 >
                   Learn more
@@ -99,7 +102,7 @@ export default function Feature() {
                 </p>
 
                 <a
-                  cls="inline-flex items-center font-semibold text-gray-700 no-underline cursor-pointer hover:underline hover:text-gray-800"
+                  cls="inline-flex items-center text-gray-700 no-underline cursor-pointer hover:underline hover:text-gray-700"
                   href="#"
                 >
                   Learn more
@@ -156,7 +159,7 @@ export default function Feature() {
                 </p>
 
                 <a
-                  cls="inline-flex items-center font-semibold text-gray-700 no-underline cursor-pointer hover:underline hover:text-gray-800"
+                  cls="inline-flex items-center text-gray-700 no-underline cursor-pointer hover:underline hover:text-gray-700"
                   href="#"
                 >
                   Learn more
@@ -204,7 +207,7 @@ export default function Feature() {
                 </p>
 
                 <a
-                  cls="inline-flex items-center font-semibold text-gray-700 no-underline cursor-pointer hover:underline hover:text-gray-800"
+                  cls="inline-flex items-center text-gray-700 no-underline cursor-pointer hover:underline hover:text-gray-700"
                   href="#"
                 >
                   Learn more
