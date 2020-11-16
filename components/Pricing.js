@@ -3,7 +3,7 @@
 export default function Pricing() {
   return (
     <section cls="bg-white">
-      <div cls="container px-5 py-16 mx-auto">
+      <div cls="container px-5 py-8 md:py-16 mx-auto">
         <div cls="max-w-xl mb-10 md:mx-auto sm:text-center lg:max-w-2xl md:mb-12">
           <div cls="lg:text-center">
             <h2 cls="mt-2 text-3xl font-extrabold leading-10 tracking-tight text-gray-900 sm:leading-none md:mx-auto sm:text-4xl">
@@ -17,7 +17,7 @@ export default function Pricing() {
           </div>
         </div>
 
-        <div cls="flex flex-col max-w-md space-x-0 space-y-6 lg:flex-row lg:max-w-screen-lg sm:mx-auto lg:space-y-0 lg:space-x-6">
+        <div cls="flex flex-col w-full space-x-0 space-y-6 lg:flex-row lg:max-w-screen-lg sm:mx-auto lg:space-y-0 lg:space-x-6">
           <div cls="flex flex-col w-full bg-white border border-gray-200 rounded-lg shadow-sm lg:w-1/2">
             <div cls="px-8 py-6 bg-gray-100">
               <h3 cls="text-center text-xl font-bold tracking-wider uppercase">
@@ -96,7 +96,7 @@ export default function Pricing() {
                   </ul>
                 </div>
                 <div>
-                  <button cls="inline-flex items-center justify-center w-full h-12 px-6 mb-4 text-base font-medium leading-tight text-gray-200 whitespace-no-wrap align-middle transition-all duration-200 bg-gray-900 rounded-md outline-none appearance-none select-none focus:outline-none focus:shadow-outline hover:bg-gray-800 active:bg-gray-900">
+                  <button cls="inline-flex items-center justify-center w-full h-12 px-6 mb-4 text-base font-medium leading-tight text-gray-200 whitespace-no-wrap align-middle transition-all duration-200 bg-blue-100 bg-opacity-75 text-blue-500 rounded-md outline-none appearance-none select-none focus:outline-none focus:shadow-outline hover:bg-blue-200 hover:bg-opacity-50">
                     Get started
                   </button>
                   <p cls="text-sm text-gray-600">

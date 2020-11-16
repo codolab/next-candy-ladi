@@ -3,7 +3,7 @@
 export default function Footer() {
   return (
     <footer cls="bg-white">
-      <div cls="container px-4 py-12 pt-8 mx-auto border-t border-gray-200 md:py-24 md:pt-16 md:px-0">
+      <div cls="container px-4 py-12 pt-8 mx-auto md:py-24 md:pt-16 md:px-0">
         <div cls="flex flex-col space-y-12 lg:flex-row lg:space-y-0">
           <div cls="w-full pr-0 md:max-w-md lg:pr-8">
             <div cls="text-base font-semibold text-gray-900 uppercase">Logo</div>
@@ -21,26 +21,26 @@ export default function Footer() {
               <div cls="flex flex-col justify-end space-y-4">
                 <a
                   to="/components"
-                  cls="text-sm font-semibold text-gray-600 no-underline transition-all duration-200 ease-out outline-none cursor-pointer hover:underline focus:outline-none focus:shadow-outline hover:text-gray-900"
+                  cls="text-sm font-normal text-gray-600 no-underline transition-all duration-200 ease-out outline-none cursor-pointer hover:underline focus:outline-none focus:shadow-outline hover:text-gray-800"
                 >
                   First Link
                 </a>
 
                 <a
                   href="#"
-                  cls="text-sm font-semibold text-gray-600 no-underline transition-all duration-200 ease-out outline-none cursor-pointer hover:underline focus:outline-none focus:shadow-outline hover:text-gray-900"
+                  cls="text-sm font-normal text-gray-600 no-underline transition-all duration-200 ease-out outline-none cursor-pointer hover:underline focus:outline-none focus:shadow-outline hover:text-gray-800"
                 >
                   Second Link
                 </a>
                 <a
                   href="#"
-                  cls="text-sm font-semibold text-gray-600 no-underline transition-all duration-200 ease-out outline-none cursor-pointer hover:underline focus:outline-none focus:shadow-outline hover:text-gray-900"
+                  cls="text-sm font-normal text-gray-600 no-underline transition-all duration-200 ease-out outline-none cursor-pointer hover:underline focus:outline-none focus:shadow-outline hover:text-gray-800"
                 >
                   Third Link
                 </a>
                 <a
                   href="#"
-                  cls="text-sm font-semibold text-gray-600 no-underline transition-all duration-200 ease-out outline-none cursor-pointer hover:underline focus:outline-none focus:shadow-outline hover:text-gray-900"
+                  cls="text-sm font-normal text-gray-600 no-underline transition-all duration-200 ease-out outline-none cursor-pointer hover:underline focus:outline-none focus:shadow-outline hover:text-gray-800"
                 >
                   Fourth Link
                 </a>
@@ -54,26 +54,26 @@ export default function Footer() {
               <div cls="flex flex-col space-y-4">
                 <a
                   to="/components"
-                  cls="text-sm font-semibold text-gray-600 no-underline transition-all duration-200 ease-out outline-none cursor-pointer hover:underline focus:outline-none focus:shadow-outline hover:text-gray-900"
+                  cls="text-sm font-normal text-gray-600 no-underline transition-all duration-200 ease-out outline-none cursor-pointer hover:underline focus:outline-none focus:shadow-outline hover:text-gray-800"
                 >
                   First Link
                 </a>
 
                 <a
                   href="#"
-                  cls="text-sm font-semibold text-gray-600 no-underline transition-all duration-200 ease-out outline-none cursor-pointer hover:underline focus:outline-none focus:shadow-outline hover:text-gray-900"
+                  cls="text-sm font-normal text-gray-600 no-underline transition-all duration-200 ease-out outline-none cursor-pointer hover:underline focus:outline-none focus:shadow-outline hover:text-gray-800"
                 >
                   Second Link
                 </a>
                 <a
                   href="#"
-                  cls="text-sm font-semibold text-gray-600 no-underline transition-all duration-200 ease-out outline-none cursor-pointer hover:underline focus:outline-none focus:shadow-outline hover:text-gray-900"
+                  cls="text-sm font-normal text-gray-600 no-underline transition-all duration-200 ease-out outline-none cursor-pointer hover:underline focus:outline-none focus:shadow-outline hover:text-gray-800"
                 >
                   Third Link
                 </a>
                 <a
                   href="#"
-                  cls="text-sm font-semibold text-gray-600 no-underline transition-all duration-200 ease-out outline-none cursor-pointer hover:underline focus:outline-none focus:shadow-outline hover:text-gray-900"
+                  cls="text-sm font-normal text-gray-600 no-underline transition-all duration-200 ease-out outline-none cursor-pointer hover:underline focus:outline-none focus:shadow-outline hover:text-gray-800"
                 >
                   Fourth Link
                 </a>
@@ -86,26 +86,26 @@ export default function Footer() {
               <div cls="flex flex-col space-y-4">
                 <a
                   to="/components"
-                  cls="text-sm font-semibold text-gray-600 no-underline transition-all duration-200 ease-out outline-none cursor-pointer hover:underline focus:outline-none focus:shadow-outline hover:text-gray-900"
+                  cls="text-sm font-normal text-gray-600 no-underline transition-all duration-200 ease-out outline-none cursor-pointer hover:underline focus:outline-none focus:shadow-outline hover:text-gray-800"
                 >
                   First Link
                 </a>
 
                 <a
                   href="#"
-                  cls="text-sm font-semibold text-gray-600 no-underline transition-all duration-200 ease-out outline-none cursor-pointer hover:underline focus:outline-none focus:shadow-outline hover:text-gray-900"
+                  cls="text-sm font-normal text-gray-600 no-underline transition-all duration-200 ease-out outline-none cursor-pointer hover:underline focus:outline-none focus:shadow-outline hover:text-gray-800"
                 >
                   Second Link
                 </a>
                 <a
                   href="#"
-                  cls="text-sm font-semibold text-gray-600 no-underline transition-all duration-200 ease-out outline-none cursor-pointer hover:underline focus:outline-none focus:shadow-outline hover:text-gray-900"
+                  cls="text-sm font-normal text-gray-600 no-underline transition-all duration-200 ease-out outline-none cursor-pointer hover:underline focus:outline-none focus:shadow-outline hover:text-gray-800"
                 >
                   Third Link
                 </a>
                 <a
                   href="#"
-                  cls="text-sm font-semibold text-gray-600 no-underline transition-all duration-200 ease-out outline-none cursor-pointer hover:underline focus:outline-none focus:shadow-outline hover:text-gray-900"
+                  cls="text-sm font-normal text-gray-600 no-underline transition-all duration-200 ease-out outline-none cursor-pointer hover:underline focus:outline-none focus:shadow-outline hover:text-gray-800"
                 >
                   Fourth Link
                 </a>
@@ -116,9 +116,9 @@ export default function Footer() {
       </div>
       <div cls="bg-white">
         <div cls="container flex flex-col justify-between px-4 py-8 mx-auto border-t border-gray-300 lg:py-10 sm:flex-row md:px-0">
-          <p cls="text-base font-medium text-gray-600">
+          <p cls="text-base text-gray-600">
             © Copyright 2020{" "}
-            <span cls="font-semibold text-gray-700">Lorem Inc</span>. All rights
+            <span cls="font-medium text-gray-700">Lorem Inc</span>. All rights
             reserved.
           </p>
           <div cls="flex items-center mt-4 space-x-5 sm:mt-0">
@@ -173,24 +173,6 @@ export default function Footer() {
                 cls="w-5 h-5"
               >
                 <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z" />
-              </svg>
-            </a>
-            <a
-              href="/"
-              cls="text-gray-600 transition-colors duration-200 hover:text-gray-900"
-            >
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                viewBox="0 0 24 24"
-                fill="none"
-                stroke="currentColor"
-                strokeWidth="2"
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                cls="w-5 h-5"
-              >
-                <circle cls="12" cy="12" r="10" />
-                <path d="M8.56 2.75c4.37 6.03 6.02 9.42 8.03 17.72m2.54-15.38c-3.72 4.35-8.94 5.66-16.88 5.85m19.5 1.9c-3.5-.93-6.63-.82-8.94 0-2.58.92-5.01 2.86-7.44 6.32" />
               </svg>
             </a>
           </div>

@@ -4,8 +4,9 @@ import Header from "../components/Header";
 import Hero from "../components/Hero";
 import Feature from "../components/Feature";
 import HowItWork from "../components/HowItWork";
-import Testimonials from "../components/Testimonials";
 import Pricing from "../components/Pricing";
+import Blog from "../components/Blog";
+import CTA from "../components/CTA";
 import Footer from "../components/Footer";
 
 export default function Home() {
@@ -16,8 +17,9 @@ export default function Home() {
         <Hero />
         <Feature />
         <HowItWork />
-        <Testimonials />
+        <Blog />
         <Pricing />
+        <CTA />
         <Footer />
       </div>
     </div>

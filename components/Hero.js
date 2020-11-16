@@ -4,7 +4,7 @@ import Image from "next/image";
 export default function Hero() {
   return (
     <section cls="bg-white">
-      <div cls="container flex flex-col items-center px-4 pt-24 mx-auto">
+      <div cls="container mx-auto flex flex-col items-center px-5 pt-16 pb-8 md:pt-24 md:pb-16">
         <div cls="flex flex-col items-center md:px-8">
           <div cls="max-w-xl mb-10 sm:text-center md:mx-auto lg:max-w-4xl">
             <h2 cls="text-4xl font-extrabold leading-10 tracking-tight text-gray-900 sm:text-5xl sm:leading-none md:mx-auto lg:text-6xl">
@@ -18,9 +18,9 @@ export default function Hero() {
               accusantium doloremque rem aperiam, eaque ipsa quae.
             </p>
           </div>
-          <div cls="flex flex-col items-center justify-center w-full mb-4 space-x-0 space-y-4 md:flex-row md:space-y-0 md:space-x-4">
+          <div cls="flex items-center justify-center w-full mb-4 flex-row space-y-0 space-x-4">
             <button cls="inline-flex items-center justify-center h-12 px-6 text-base font-medium leading-tight whitespace-no-wrap align-middle transition-all duration-200 bg-gray-900 text-gray-200 rounded-md outline-none appearance-none select-none cursor-pointer hover:bg-gray-800 focus:outline-none focus:shadow-outline">
-              <span>Learn more</span>
+              <span>Get a Demo</span>
               <svg
                 cls="w-4 h-4 flex-shrink-0 ml-2 -mr-1"
                 xmlns="http://www.w3.org/2000/svg"
@@ -37,7 +37,7 @@ export default function Hero() {
               </svg>
             </button>
             <button cls="inline-flex items-center justify-center h-12 px-6 text-base font-medium leading-tight whitespace-no-wrap align-middle transition-all duration-200 bg-blue-500 text-white rounded-md outline-none appearance-none select-none cursor-pointer hover:bg-blue-600 focus:outline-none focus:shadow-outline">
-              <span>Get Started</span>
+              <span>Go Dashboard</span>
               <svg
                 cls="w-4 h-4 flex-shrink-0 ml-2 -mr-1"
                 viewBox="0 0 24 24"
@@ -64,7 +64,7 @@ export default function Hero() {
           </div>
         </div>
 
-        <div cls="w-full max-w-screen-xl mx-auto rounded shadow-2xl md:w-100% md:max-w-screen-md lg:max-w-screen-lg xl:max-w-screen-xl">
+        <div cls="w-full max-w-screen-xl mx-auto rounded shadow-lg md:w-100% md:max-w-screen-md lg:max-w-screen-lg xl:max-w-screen-xl">
           <div cls="flex flex-col w-full h-full">
             <div cls="bg-white border border-b-0 border-gray-300 border-solid rounded-tl-md rounded-tr-md">
               <div cls="relative flex items-center justify-between w-full h-10 pt-0">
@@ -83,7 +83,7 @@ export default function Hero() {
             <div cls="flex-1 w-full h-full">
               <Image
                 alt="Forest"
-                src="/candy.jpeg"
+                src="/hero-background.jpg"
                 layout="responsive"
                 cls="object-cover object-center w-full h-full"
                 width={1200}
